@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.aman_10102002.mobile"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,17 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "expo": {
+      "extra": {
+        "router": {},
+        "API_URL": "https://wallet-api-v2r2.onrender.com",
+        "eas": {
+          "projectId": "e16504c1-b60a-48e4-8066-7cb59f69a137"
+        }
+      }
+    },
+
+    "owner": "aman_10102002"
   }
 }
