@@ -20,7 +20,8 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.aman_10102002.mobile"
+      "package": "com.aman_10102002.mobile",
+      "permissions": ["INTERNET"]
     },
     "web": {
       "output": "static",
@@ -45,16 +46,13 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-    "expo": {
-      "extra": {
-        "router": {},
-        "API_URL": "https://wallet-api-v2r2.onrender.com",
-        "eas": {
-          "projectId": "e16504c1-b60a-48e4-8066-7cb59f69a137"
-        }
+    "extra": {
+      "router": {},
+      "API_URL": "https://wallet-api-v2r2.onrender.com",
+      "eas": {
+        "projectId": "e16504c1-b60a-48e4-8066-7cb59f69a137"
       }
     },
-
     "owner": "aman_10102002"
   }
 }
